@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+
+}
+.main{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    
+}
+
+
+.left{
+    height: 100%;
+    width: 35%;
+    
+    position:relative;
+   
+}
+.right{
+    height: 100%;
+    width: 65%;
+    
+    
+}
+
+.right-top{
+    height: 50%;
+    width: 100%;
+    
+    display: flex;
+}
+
+.right-bottom{
+    height: 50%;
+    width: 100%;
+    background-image: url("karolina-kolodziejczak-fjj8C7vNXdA-unsplash.jpg");
+    background-size: cover;
+    background-position: 50% 50% ;
+    
+    
+
+}
+
+ .right-tl{
+    background-image: url("charlesdeluvio-tBdqV1S2oXI-unsplash.jpg");
+    background-size: cover;
+    background-position: 50% 50%;
+    
+    height: 100%;
+    width: 55%;
+} 
+
+.right-tr{
+    height: 100%;
+    width: 45%; 
+    background-image: url("galina-n-miziNqvJx5M-unsplash.jpg");
+    background-size: cover;
+}
+
+
+
+.nav{
+    width: 100%;
+    
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navr a{
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.nav-r{
+    display: flex;
+    align-items: center;
+}
+
+.navr i{
+    color: royalblue;
+
+}
+
+.textcenter{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.textcenter h1{
+    font-size: 90px;
+    font-weight: 900;
+    
+}
+
+.textcenter p{
+    opacity: .6;
+    font-size: 12px;
+    line-height: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.textcenter a {
+    color: #000;
+    text-decoration: None;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+    font-size: 13px;
+    font-weight: 600;
+    opacity: .6;
+}
+
+
+@media (max-width: 500px) {
+    .main{
+        flex-direction: column;
+
+    }
+
+    .main .left{
+        width: 100%;
+    }
+
+    .main .right{
+        width: 100%;
+    }
+    
+}
