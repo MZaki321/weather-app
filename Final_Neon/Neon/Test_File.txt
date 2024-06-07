@@ -1,0 +1,42 @@
+public class x extend y
+{
+	static public int x;
+	override public final int a(int,int)
+	{
+		int x;
+		return 0;
+	}
+	public static void main()
+	{
+		int x;
+		count(int x;;)
+		{
+			x++;
+		}
+		if(x<0)
+			x-=3;
+		else
+		{
+			x+=3;	
+		}
+		int y=a+5*5-3*fn(x) or 5 and 4;
+		A a=new A();
+		a.fn();
+	}
+	static public int y;
+	override public final int b(int,float,string,char,bool)
+	{
+		int x;
+		return 0;
+		int[x][y]={1,4,6,7,8};
+		char a='abcd';
+		string s= "hrpfdyk5789954 \"";
+	}
+}
+
+class A
+{
+	A();
+}
+
+
